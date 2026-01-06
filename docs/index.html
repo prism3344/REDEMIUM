@@ -13,19 +13,11 @@
         a { font-size: 20px; text-decoration: none; color: #007bff; }
 
         body {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start; 
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding-top: 50px; 
-            background-color: #222;
-            background-image: url(tlo.png);
-            background-size: cover;
-            text-align: center;
-            color: white;
-        }
+                    background-image: url(tlo.png);
+                    background-size: cover;
+                    background-attachment: fixed; /* To rozwiązuje problem skalowania przy długiej treści */
+                    background-position: center;
+                }
 
         .content-wrapper {
             margin-bottom: 40px;
@@ -77,14 +69,18 @@
     <t>Obecnie <a href="https://www.youtube.com/watch?v=AjpAGec8Mjk">gra</a> znajduję się, na platformie Roblox</t>
     <br>
     <img src="pcr.png">
+    <img src="yg.png" style="height:300px;widht:500px;">
     <br>
     <t>Produkt ten został pokazany tylko w wersji beta.</t>
     <br>
-    <img src="gp.png">
+    <img src="gp.png" style="height:300px;widht:500px;">
     <br>
     <t>Niestety projekt został porzucony(6/7/2025).</t>
+    
+    
 
     
 </body>
 
 </html>
+
